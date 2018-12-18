@@ -1,45 +1,741 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Menu</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+<title>Menu</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">	
 </head>
-  <body>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
+<body style="position: relative;" data-spy="scroll" data-target="#scroll_spy" data-offset="1">
+<nav class="navbar navbar-expand-lg">
+	<a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="about.html">About Us</a>
+			<a class="nav-item nav-link" href="menu.html">Menu</a>
+			<a class="nav-item nav-link" href="pricing.html">Pricing</a>
+			<a class="nav-item nav-link" href="FAQ.html">FAQs</a>
+			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			<a class="nav-item nav-link" href="contact.html">Contact Us</a>
+		</div>
+	</div>
+</nav>
+<nav id="scroll_spy" class="navbar" style="position: fixed;">
+	<nav class="nav nav-pills flex-column">
+		<a class="nav-link" href="#item-1">Cupcakes</a>
+		<a class="nav-link" href="#item-2">Cakes</a>
+		<a class="nav-link" href="#item-3">Round Cakes</a>
+		<a class="nav-link ml-3" href="#item-4">Theme / Photo Round Cakes</a>
+		<a class="nav-link ml-3" href="#item-5">Custom Round Cakes</a>
+		<a class="nav-link" href="#item-6">Sheet Cakes</a>
+		<a class="nav-link ml-3" href="#item-7">Theme / Photo Sheet Cakes</a>
+		<a class="nav-link ml-3" href="#item-8">Custom Sheet Cakes</a>
+	</nav>
+</nav>
+<div class="container" id="image_gallery">
+	<h2 id="item-1">Cupcakes</h2>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/17103243_10155209224428938_6420343965234897227_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/17202987_10155235083858938_8495872689543066493_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/17425113_10155271331393938_4122848771073043007_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/17903399_10155349681303938_9217267387061475920_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/18057183_10155402288143938_5983579402724228359_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/18739659_10155509204553938_7127449737914914537_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22090097_10155929244183938_94766655254113457_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22140867_10155940744838938_8217858661911643453_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22281793_10155956988733938_4829791216083306550_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22405647_10155973261348938_8834805755661902578_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22552381_10155984795458938_200911234574854367_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22788913_10156020204938938_8632262782773432934_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/24231717_10156122376728938_4689383358753127937_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/25348675_10156176335903938_3441733721810401040_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/27459863_10156310397868938_7732998636436454348_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/27972395_10156366535413938_8664543171212184912_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/30739790_10156546627253938_5203403121631428608_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/31045296_10156544329318938_1310898553601654784_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/35551545_10156702785333938_8713954706134663168_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/37064442_10156766271823938_2303145052492267520_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/40284206_10156893725068938_709603716277207040_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/42289119_10156956002983938_2762262118538412032_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/43624270_10157000120208938_9075307068004499456_n.jpg" alt="Custom Cupcake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_cupcakes/22549753_10155994567308938_301057990070768784_n.jpg" alt="Custom Cupcake">
+		</div>
+	</div>
+	<h2 id="item-2">Cakes</h2>
+	<h3 id="item-3">Round Cakes</h3>
+	<h4 id="item-4">Theme / Photo Round Cakes</h4>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/17191481_10155235083893938_5324203151123612031_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/21151614_10155836197158938_6325392929369077684_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/21752391_10155881196408938_3668402729529721264_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/22365196_10155955542238938_1887129413700419347_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/22813959_10156006620018938_2257044010149361086_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/25152121_10156164484248938_3792872013368107934_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/25442914_10156184663958938_1219443751156803803_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/26731290_10156260412353938_4233502819248322469_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/26815439_10156272577238938_5411072326934157824_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/26993204_10156302110518938_5806591032712098171_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/26993993_10156289372373938_7635771281707211807_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/27750265_10156343387818938_1479603856264253889_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/28058814_10156361672783938_6628953093416029198_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/28377556_10156374315008938_5837951461319759150_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/31306697_10156557076638938_1969193237646147584_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/31542767_10156587415568938_7658109065964290048_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/31901947_10156584084813938_1319938055305428992_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/33396678_10156634803768938_2386308164942299136_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/35189798_10156685859648938_4604392601318064128_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/35364344_10156689232078938_1855944386093776896_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/36820613_10156753226158938_8379886626523840512_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/36841813_10156758490333938_3500617501241245696_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/37049131_10156763985713938_8716559882972561408_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/38799358_10156842733373938_2886335967008915456_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/39091659_10156852812943938_1219739225658753024_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/39293364_10156862150878938_4843654212787109888_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/39976830_10156876502218938_4664260386680209408_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/40763827_10156911030838938_1094064982179446784_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/43016119_10156983498658938_6931799576173084672_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/43458454_10156998145788938_6839500823471325184_n.jpg" alt="Themed Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_round_cakes/43700093_10157000121503938_1643942382296629248_n.jpg" alt="Themed Round Cake">
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+	<h4 id="item-5">Custom Round Cakes</h4>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/11265250_10153390259878938_6134246478820053210_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/17155526_10155210222868938_1940013597500634727_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/536083_10151180582563938_1904580149_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/18056833_10155385075793938_2263456856546111367_n 2.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/18275099_10155431036168938_2432572313257830391_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/18342163_10155431052103938_8337078068285393845_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/18403021_10155447518983938_7208871104859440759_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/18620337_10155493339673938_7300535504870058617_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/20264616_10155719766418938_4702478775794300238_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/20953633_10155808352228938_5688052961811467184_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/21034466_10155818502898938_1564990199294597847_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/21617647_10155894866988938_8722156656682908248_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/21617668_10155875089118938_8695649184119251650_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/21687874_10155908888173938_7399994885775880197_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/22221952_10155943434013938_4529864054476710720_n 2.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/22491648_10155974355013938_3248936149830368257_n 2.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/22554948_10156002676423938_6291163444426709357_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/23130579_10156042616773938_1094604289699292143_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/23755508_10156085233903938_9152452884998073261_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/24131053_10156127902633938_673833860607603500_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/24296812_10156128464528938_1994790226253264693_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/24775139_10156140584343938_6136368885279000877_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/24899810_10156146885673938_2085608108463597250_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/24899949_10156146885528938_6979115987124272607_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/25152215_10156160625368938_4338973551869770798_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/25550243_10156187628398938_986712334063688189_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/26906931_10156282047048938_6659759804278733237_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/27072644_10156305281248938_1531565924176209735_n 2.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/27332032_10156299100858938_2819378268794502548_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/28378057_10156395604373938_8277182731804119013_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/28951888_10156426131628938_3187100762832371712_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/31369420_10156565599648938_439050377543811072_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/31755433_10156579866738938_5560091196262449152_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/31870524_10156584483228938_468755977680715776_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/32925669_10156623432543938_7365177465855016960_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/33634207_10156641059958938_6237948760555520000_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/36766527_10156751174663938_5869485930003300352_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/37262531_10156781516608938_7824645327650029568_n.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/38250038_10156820615353938_5615442054713704448_n.jpg" alt="Custom Round Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_round_cakes/40358161_10156890429063938_543942889185476608_n-1.jpg" alt="Custom Round Cake">
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+	<h3 id="item-6">Sheet Cakes</h3>
+	<h4 id="item-7">Theme / Photo Sheet Cakes</h4>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/21230811_10155835707443938_2740620809577471665_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/22050269_10155928213828938_4937392809384052112_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/22221988_10155942207923938_1909555484653525958_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/22281689_10155942208093938_3521249439829279502_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/22490095_10156278456288938_5729578130076956094_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/22491468_10155988196253938_8849775670713957535_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/23658785_10156091332778938_4834740145370869681_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/24231717_10156122376728938_4689383358753127937_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/24232789_10156130325998938_7011982291713854158_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/24294430_10156136895813938_2205035936283831773_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26001214_10156204759308938_5393637144781062397_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26047465_10156204759303938_833287786867547262_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26904063_10156274197663938_7607391362985622507_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26907215_10156286218653938_7183761514342863839_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26993482_10156290704463938_4577805308473580846_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/26993741_10156290702573938_2420631320013944609_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/27331962_10156290701968938_2359320397042048222_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/27332411_10156306781688938_3710147844005250870_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/27972395_10156366535413938_8664543171212184912_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/29573320_10156481120418938_8503722979124039928_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/30739790_10156546627253938_5203403121631428608_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/30741003_10156542465373938_6404412939805130752_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/31239399_10156557076498938_4716045739375984640_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/31271258_10156557076438938_926581181988732928_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/31357650_10156563804173938_2822952828224405504_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/33406951_10156632528713938_7351730211014049792_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/34585809_10156670168828938_3941183894866362368_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/36986427_10156764393633938_1150685987014180864_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/37097388_10156773445878938_7734233534470029312_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/38264016_10156824049008938_2816379312058400768_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/40318594_10156893725503938_5390005182761271296_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/40452337_10156898869573938_4134123601148248064_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/41454211_10156927576358938_3489684713528885248_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/42194646_10156950107928938_2984353266801836032_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/42207601_10156951044633938_7697328967849607168_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/42920491_10156979425813938_1396872769391558656_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/43661866_10157002066638938_1208561100824510464_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/43766916_10157006389228938_3500910443780636672_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/44607344_10157032033728938_2353689305668386816_n.jpg" alt="Themed Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			
+		</div>
+		<div class="col-md-3">
+			<img src="images/theme_or_photo_sheet_cakes/44808448_10157034661153938_134453680618340352_n.jpg" alt="Themed Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+	<h4 id="item-8">Custom Sheet Cakes</h4>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/18698261_10155483165088938_1032480720601250149_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/20638059_10155769787243938_8644274626609420345_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/21463048_10155891181853938_5587726694780393058_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/22449773_10155979117158938_5592647005517451714_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/22552804_10155998909453938_1884630670883440318_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/23132048_10156038384933938_4863728259341701804_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/25289493_10156165521038938_319354976919739122_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/25354069_10156165521028938_2502773827689361533_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/26805247_10156268815283938_545547310214866345_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/31753116_10156575827213938_2793758526764220416_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/34484898_10156661533668938_4329229757653712896_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/35518933_10156702785398938_2445827422298308608_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/36814471_10156753893668938_17641457909235712_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/38391722_10156823541808938_8099251199955435520_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/39043781_10156847575848938_5887347552231096320_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/39153054_10156858113128938_2408768082236407808_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/40392905_10156898371463938_3200316742274383872_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/40534870_10156904220448938_5821518674384650240_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 blank"></div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/41564854_10156932775993938_8167539487744720896_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/42361282_10156958988493938_3858231446267232256_n.jpg" alt="Custom Sheet Cake">
+		</div>
+		<div class="col-md-3">
+			<img src="images/custom_sheet_cakes/42521883_10156967022173938_3891665919830654976_n.jpg" alt="Custom Sheet Cake">
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="about.html"><li>About Us</li></a>
+					<a href="menu.html"><li>Menu</li></a>
+					<a href="pricing.html"><li>Pricing</li></a>
+				</ul>
+			</div>
+			<div class="col">
+				<ul>
+					<a href="FAQ.html"><li>FAQs</li></a>
+					<a href="gallery.html"><li>Gallery</li></a>
+					<a href="contact.html"><li>Contact Us</li></a>
+				</ul>
+			</div>
+			<div class="col">
+				<img src="images/logo.jpg" alt="Cheat Day Logo">
+				<span class="text-muted">Copyright Cheat Day 2018</span>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
-  <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="about.html">About Us</a>
-                <a class="nav-item nav-link" href="menu.html">Menu</a>
-                <a class="nav-item nav-link" href="pricing.html">Pricing</a>
-                <a class="nav-item nav-link" href="FAQ.html">FAQs</a>
-                <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-                <a class="nav-item nav-link" href="contact.html">Contact Us</a>
-            </div>
-        </div>
-    </nav>
-
-    <footer class="footer">
-            <div class="container-fluid">
-                <span class="text-muted">Copyright Cheat Day 2018</span>
-            </div>
-        </footer>
+<style>
+	#image_gallery h2, #image_gallery h3, #image_gallery h4 {
+		text-align: center;
+	}
+	.blank {
+		z-index: -2;
+	}
+</style>
 </html>

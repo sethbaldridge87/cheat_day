@@ -1,5 +1,4 @@
 body {
-	/*background-image: url('../images/cream_pixels.png');*/
 	background-color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Roboto', sans-serif;
@@ -86,6 +85,17 @@ nav a:hover {
 footer {
 	padding: 20px;
 }
+footer li {
+	color: rgba(146,0,138,1);
+	list-style-type: none;
+}
+footer li:hover {
+	color: #00D7AB;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: none;
+}
 @media screen and (max-width:1400px){
 	#greeter_slide {
 		bottom: 35vh;
@@ -125,5 +135,27 @@ footer {
 	}
 	#greeter_slide {
 		bottom: 9vh;
+	}
+}
+/*About.html****************************************************/
+#about {
+	color: #fff;
+	background-image: url('../images/theme_or_photo_round_cakes/21752391_10155881196408938_3668402729529721264_n.jpg');
+	background-repeat: no-repeat; 
+	background-size: cover;
+	padding: 200px;
+	text-shadow: 5px 5px 5px #000;
+}
+/*Gallery.html***************************************************/
+#image_gallery img {
+	max-width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #00D7AB;
+	color: #F90394;
+}
+@media screen and (max-width:767px){
+	#scroll_spy {
+		display: none;
 	}
 }
