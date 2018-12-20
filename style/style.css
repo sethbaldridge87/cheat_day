@@ -7,12 +7,15 @@ body {
 nav {
 	background-color: #fff;
 }
-nav a {
-	font-weight: bold;
+.navbar-light .navbar-nav .nav-link {
 	color: rgba(249,3,148,1);
 }
-nav a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
 	color: #00D7AB;
+}
+h1, h2, h3, h4, h5 {
+	color: rgba(146,0,138,1);
+	text-align: center;
 }
 #front_logo {
 	height: 50px;
@@ -85,15 +88,12 @@ nav a:hover {
 footer {
 	padding: 20px;
 }
-footer li {
-	color: rgba(146,0,138,1);
+footer a {
+	color: #00D7AB;
 	list-style-type: none;
 }
-footer li:hover {
-	color: #00D7AB;
-	text-decoration: none;
-}
 footer a:hover {
+	color: rgba(146,0,138,1);
 	text-decoration: none;
 }
 @media screen and (max-width:1400px){
@@ -137,25 +137,48 @@ footer a:hover {
 		bottom: 9vh;
 	}
 }
-/*About.html****************************************************/
-#about {
-	color: #fff;
-	background-image: url('../images/theme_or_photo_round_cakes/21752391_10155881196408938_3668402729529721264_n.jpg');
-	background-repeat: no-repeat; 
-	background-size: cover;
-	padding: 200px;
-	text-shadow: 5px 5px 5px #000;
+/**Contact Us******************************/
+.contact, .follow, .address {
+    color: rgba(146,0,138,1);
+    width: 100%;
+    padding: 10px;
+    border: 5px dotted #00D7AB;
+    margin: 0;
 }
-/*Gallery.html***************************************************/
-#image_gallery img {
-	max-width: 100%;
+.info {
+    color: #F90394;
+    width: 100%;
+    padding: 10px;
+    border: 5px dotted #F90394;
+    margin: 0;
+}
+.title {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+/**Gallery********************************/
+#scroll_spy a {
+	color: #F90394;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	background-color: #00D7AB;
+}
+.blank {
+	z-index: -2;
+}
+#image_gallery img {
+	width: 100%;
+}
+/**FAQ***********************************/
+#FAQ h5 {
+	text-align: left;
+}
+#FAQ button {
 	color: #F90394;
 }
-@media screen and (max-width:767px){
-	#scroll_spy {
-		display: none;
-	}
+#FAQ .card-body {
+	color: rgba(146,0,138,1);
 }

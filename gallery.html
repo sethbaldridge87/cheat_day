@@ -1,39 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Menu</title>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style/style.css">
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
+    <title>Project 1</title>
 </head>
 <body style="position: relative;" data-spy="scroll" data-target="#scroll_spy" data-offset="1">
-<nav class="navbar navbar-expand-lg">
-	<a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		<div class="navbar-nav">
-			<a class="nav-item nav-link" href="index.html">Home</a>
-			<a class="nav-item nav-link" href="about.html">About Us</a>
-			<a class="nav-item nav-link" href="menu.html">Menu</a>
-			<a class="nav-item nav-link" href="pricing.html">Pricing</a>
-			<a class="nav-item nav-link" href="FAQ.html">FAQs</a>
-			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
-			<a class="nav-item nav-link" href="contact.html">Contact Us</a>
-		</div>
-	</div>
-</nav>
+<nav class="navbar navbar-light navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="about.html">About Us</a>
+            <a class="nav-item nav-link" href="menu.html">Menu</a>
+            <a class="nav-item nav-link" href="nutrition.html">Nutrition Facts</a>
+            <a class="nav-item nav-link" href="FAQ.html">FAQs</a>
+            <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+        </div>
+    </div>
+</nav><hr>
 <nav id="scroll_spy" class="navbar" style="position: fixed;">
 	<nav class="nav nav-pills flex-column">
 		<a class="nav-link" href="#item-1">Cupcakes</a>
@@ -47,7 +42,7 @@
 	</nav>
 </nav>
 <div class="container" id="image_gallery">
-	<h2 id="item-1">Cupcakes</h2>
+	<h2 id="item-1">Cupcakes</h2><hr>
 	<div class="row">
 		<div class="col-md-3 blank"></div>
 		<div class="col-md-3">
@@ -144,7 +139,7 @@
 			<img src="images/custom_cupcakes/22549753_10155994567308938_301057990070768784_n.jpg" alt="Custom Cupcake">
 		</div>
 	</div>
-	<h2 id="item-2">Cakes</h2>
+	<h2 id="item-2">Cakes</h2><hr>
 	<h3 id="item-3">Round Cakes</h3>
 	<h4 id="item-4">Theme / Photo Round Cakes</h4>
 	<div class="row">
@@ -730,12 +725,4 @@
 	</div>
 </footer>
 </body>
-<style>
-	#image_gallery h2, #image_gallery h3, #image_gallery h4 {
-		text-align: center;
-	}
-	.blank {
-		z-index: -2;
-	}
-</style>
 </html>

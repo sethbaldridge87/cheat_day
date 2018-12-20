@@ -12,6 +12,25 @@
     <title>Project 1</title>
 </head>
 <body>
+<script>
+    var deserts = ["cupcakes", "brownies", "cakes", "cookies", "Bundt-cake",  ]
+    var queryURL = "https://www.nutritionix.com/search?q=" + deserts + "df832208c5f6294a6c0453e21c518890";
+
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    })
+        // We store all of the retrieved data 
+        .then(function (response) {
+
+            // Log the url
+            console.log(queryURL);
+
+            // Log the resulting object
+            console.log(response);
+        })
+</script>
+</body>
 <nav class="navbar navbar-light navbar-expand-lg">
     <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,5 +73,4 @@
 		</div>
 	</div>
 </footer>
-</body>        
 </html>
