@@ -96,6 +96,9 @@ footer a:hover {
 	color: rgba(146,0,138,1);
 	text-decoration: none;
 }
+footer img {
+	height: 100px;
+}
 @media screen and (max-width:1400px){
 	#greeter_slide {
 		bottom: 35vh;
@@ -171,6 +174,9 @@ footer a:hover {
 }
 #image_gallery img {
 	width: 100%;
+}
+#image_gallery img:hover {
+	cursor: pointer;
 }
 /**FAQ***********************************/
 #FAQ h5 {
