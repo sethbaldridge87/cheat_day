@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/cheat_day.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
@@ -104,39 +107,16 @@
 		</div>
 	</div>
 </div>
-<div id="row4" class="container-fluid">
-	<div class="row">
-		<div class="col-md-4">
-			<div class="card mb-4 shadow-sm">
-				<img class="card-img-top" src="images/card1.jpg" alt="Sheet Cakes">
-				<div class="card-body">
-					<p class="card-text">Sheet Cakes</p>
-					<div class="d-flex justify-content-between align-items-center">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="card mb-4 shadow-sm">
-				<img class="card-img-top" src="images/card2.jpg" alt="Round Cakes">
-				<div class="card-body">
-					<p class="card-text">Round Cakes</p>
-					<div class="d-flex justify-content-between align-items-center">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="card mb-4 shadow-sm">
-				<img class="card-img-top" src="images/card3.jpg" alt="Cupcakes">
-				<div class="card-body">
-					<p class="card-text">Cupcakes</p>
-					<div class="d-flex justify-content-between align-items-center">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="slick_slide" class="container">
+    <div><img src="images/card1.jpg" alt=""></div>
+    <div><img src="images/card2.jpg" alt=""></div>
+    <div><img src="images/card3.jpg" alt=""></div>
+    <div><img src="images/card1.jpg" alt=""></div>
+    <div><img src="images/card2.jpg" alt=""></div>
+    <div><img src="images/card3.jpg" alt=""></div>
+    <div><img src="images/card1.jpg" alt=""></div>
+    <div><img src="images/card2.jpg" alt=""></div>
+    <div><img src="images/card3.jpg" alt=""></div>
 </div>
 <footer class="footer">
 	<div class="container-fluid">
@@ -163,5 +143,19 @@
 		</div>
 	</div>
 </footer>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#slick_slide').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1
+	});
+});
+</script>
+<style>
+#slick_slide img {
+	width: 100%;
+}
+</style>
 </body>
 </html>
