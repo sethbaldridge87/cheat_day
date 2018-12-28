@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/cheat_day.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
@@ -14,7 +17,7 @@
 </head>
 <body>
 <nav class="navbar navbar-light navbar-expand-lg">
-    <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,6 +33,143 @@
         </div>
     </div>
 </nav><hr>
+<h1 class="cake-order-header">Online Cake Order</h1>
+<div class="container" id="order_form">
+<div class="card" style="width: 18rem;">
+	<div class="card-header">
+		Contact Information
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlInput1">Name</label>
+		<input type="name" class="form-control" id="exampleFormControlInput1">
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlInput2">Email</label>
+		<input type="name" class="form-control" id="exampleFormControlInput2">
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlInput3">Phone Number</label>
+		<input type="name" class="form-control" id="exampleFormControlInput3">
+	</div>
+</div>
+<br>
+<form>
+      
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Cake Type</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>(none)</option>
+            <option>Cupcakes</option>
+            <option>Bundt Cake</option>
+            <option>1/2 Sheet Cake</option>
+            <option>Full Sheet Cake</option>
+            <option>Round Cake 6" Double Layer</option>
+            <option>Round Cake 8" Double Layer</option>
+            <option>Round Cake 10" Double Layer</option>
+            <option>Round Cake 12" Double Layer</option>
+
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Cake Flavors</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>(none)</option>
+              <option>Chocolate (most popular)</option>
+              <option>Koko Somoa</option>
+              <option>Red Velvet</option>
+              <option>Marble</option>
+              <option>Coconut</option>
+  
+            </select>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlSelect1">Frosting Flavors</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>(none)</option>
+                <option>Cream Cheese (most popular)</option>
+                <option>Koko Somoa</option>
+                <option>Chocolate</option>
+                <option>Peanut Butter</option>
+                <option>Coconut</option>
+    
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Additional Options</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>(none)</option>
+                  <option>Edible Photo ($10)</option>
+                  <option>Stacked Cakes ($10 p/tier)</option>
+                  <option>Fondant ($20)</option>
+                  <option>Basic Theme ($10, put theme in notes)</option>
+      
+                </select>
+              </div>
+              <div class="form-group">
+                  <label for="exampleFormControlSelect1">Other</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>(none)</option>
+                    <option>Cookies</option>
+                    <option>Brownies</option>
+                    <option>Blondies</option>
+                  
+        
+                  </select>
+                </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Additonal Notes</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+     
+      <form method="post">
+          <div class="form-group"> <!-- Date input -->
+            <label class="control-label" for="date">Pickup Date</label>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlSelect1">Pickup Time</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                  <option>11:00 A.M.</option>
+                  <option>11:15 A.M.</option>
+                  <option>11:30 A.M.</option>
+                  <option>11:45 A.M.</option>
+                <option>12:00 P.M.</option>
+                <option>12:15 P.M.</option>
+                <option>12:30 P.M.</option>
+                <option>12:45 P.M.</option>
+                <option>1:00 P.M.</option>
+                <option>1:15 P.M.</option>
+                <option>1:30 P.M.</option>
+                <option>1:45 P.M.</option>
+                <option>2:00 P.M.</option>
+                <option>2:15 P.M.</option>
+                <option>2:30 P.M.</option>
+                <option>2:45 P.M.</option>
+                <option>3:00 P.M.</option>
+                <option>3:15 P.M.</option>
+                <option>3:30 P.M.</option>
+                <option>3:45 P.M.</option>
+                <option>4:00 P.M.</option>
+                <option>4:15 P.M.</option>
+                <option>4:30 P.M.</option>
+                <option>4:45 P.M.</option>
+                <option>5:00 P.M.</option>
+                <option>5:15 P.M.</option>
+                <option>5:30 P.M.</option>
+                <option>5:45 P.M.</option>
+                <option>6:00 P.M.</option>
+
+              
+    
+              </select>
+            </div>
+          <div class="form-group"> <!-- Submit button -->
+            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+          </div>
+         </form>
+         
+</div>
 <footer class="footer">
 	<div class="container-fluid">
 		<div class="row">
@@ -38,7 +178,7 @@
 					<a href="index.html"><li>Home</li></a>
 					<a href="about.html"><li>About Us</li></a>
 					<a href="menu.html"><li>Menu</li></a>
-					<a href="pricing.html"><li>Pricing</li></a>
+					<a href="nutrition.html"><li>Nutrition</li></a>
 				</ul>
 			</div>
 			<div class="col">
@@ -55,5 +195,20 @@
 		</div>
 	</div>
 </footer>
+<script>
+    $(document).ready(function(){
+      var date_input=$('input[name="date"]'); //our date input has the name "date"
+      var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+      var options={
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+        daysOfWeekDisabled: [0],
+        startDate: "today",
+      };
+      date_input.datepicker(options);
+    })
+</script>
 </body>        
 </html>

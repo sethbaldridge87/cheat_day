@@ -11,13 +11,15 @@
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+	<script type="text/javascript" src="js/insta.js"></script>
 	<script type="text/javascript" src="js/cheat_day.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
     <title>Project 1</title>
 </head>
 <body>
 <nav class="navbar navbar-light navbar-expand-lg">
-    <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -72,11 +74,11 @@
 <div id="row1" class="container">
 	<div class="row justify-content-center">
 		<img src="images/logo.jpg" alt="Front Logo">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi dolor, mollis a efficitur consequat, auctor vel sem. 
-			Aliquam vel commodo sem. Quisque porta, lorem eu mattis efficitur, ligula sem pulvinar metus, a egestas urna neque ac enim. 
-			Nulla quam urna, laoreet sed mollis elementum, tincidunt rutrum elit. Aenean quam elit, feugiat vel elit et, mattis consequat odio. 
-			Nulla ac odio efficitur quam fermentum pulvinar. Morbi tempus dolor vel diam aliquam, sed sagittis nisi imperdiet. 
-			Nam molestie ante ut felis viverra tristique.</p>
+	</div>
+	<div class="row">
+		<div class="col-md">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mi dolor, mollis a efficitur consequat, auctor vel sem. Aliquam vel commodo sem. Quisque porta, lorem eu mattis efficitur, ligula sem pulvinar metus, a egestas urna neque ac enim. Nulla quam urna, laoreet sed mollis elementum, tincidunt rutrum elit. Aenean quam elit, feugiat vel elit et, mattis consequat odio. Nulla ac odio efficitur quam fermentum pulvinar. Morbi tempus dolor vel diam aliquam, sed sagittis nisi imperdiet. Nam molestie ante ut felis viverra tristique.</p>
+		</div>
 	</div>
 </div>
 <div id="row2" class="container-fluid">
@@ -92,7 +94,19 @@
 			<img src="images/sample1.jpg" alt="Sample Cake" class="rounded-circle" style="height: 300px;">
 		</div>
 	</div>
-</div>
+</div><br>
+<div id="row5" class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<h2>Check us out on Instagram!</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md">
+			<div id="instafeed" class=""></div>
+		</div>
+	</div>
+</div><br>
 <div id="row3" class="container-fluid">
 	<div class="row">
 		<div class="col-md-6">
@@ -107,16 +121,16 @@
 		</div>
 	</div>
 </div>
-<div id="slick_slide" class="container">
-    <div><img src="images/card1.jpg" alt=""></div>
-    <div><img src="images/card2.jpg" alt=""></div>
-    <div><img src="images/card3.jpg" alt=""></div>
-    <div><img src="images/card1.jpg" alt=""></div>
-    <div><img src="images/card2.jpg" alt=""></div>
-    <div><img src="images/card3.jpg" alt=""></div>
-    <div><img src="images/card1.jpg" alt=""></div>
-    <div><img src="images/card2.jpg" alt=""></div>
-    <div><img src="images/card3.jpg" alt=""></div>
+<div id="slick_slide" class="container-fluid">
+    <a href="gallery.html#item-6"><div><img src="images/cards/card1.jpg" alt=""></div></a>
+    <a href="gallery.html#item-5"><div><img src="images/cards/card2.jpg" alt=""></div></a>
+    <a href="gallery.html#item-1"><div><img src="images/cards/card3.jpg" alt=""></div></a>
+    <a href="gallery.html#item-7"><div><img src="images/cards/card4.jpg" alt=""></div></a>
+    <a href="gallery.html#item-5"><div><img src="images/cards/card5.jpg" alt=""></div></a>
+    <a href="gallery.html#item-1"><div><img src="images/cards/card6.jpg" alt=""></div></a>
+    <a href="gallery.html#item-8"><div><img src="images/cards/card7.jpg" alt=""></div></a>
+    <a href="gallery.html#item-3"><div><img src="images/cards/card8.jpg" alt=""></div></a>
+    <a href="gallery.html#item-7"><div><img src="images/cards/card9.jpg" alt=""></div></a>
 </div>
 <footer class="footer">
 	<div class="container-fluid">
@@ -126,7 +140,7 @@
 					<a href="index.html"><li>Home</li></a>
 					<a href="about.html"><li>About Us</li></a>
 					<a href="menu.html"><li>Menu</li></a>
-					<a href="pricing.html"><li>Pricing</li></a>
+					<a href="nutrition.html"><li>Nutrition</li></a>
 				</ul>
 			</div>
 			<div class="col">
@@ -143,19 +157,5 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#slick_slide').slick({
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1
-	});
-});
-</script>
-<style>
-#slick_slide img {
-	width: 100%;
-}
-</style>
 </body>
 </html>
