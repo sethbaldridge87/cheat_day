@@ -87,7 +87,6 @@ $(document).ready(function () {
         console.log(newOrder.pickup);
 
 
-        alert("Order has been submitted");
         $("#name").val("")
         $("#email").val("");
         $("#phone-number").val("");
