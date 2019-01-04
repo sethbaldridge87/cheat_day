@@ -204,12 +204,24 @@ footer img {
 	text-align: left;
 }
 #FAQ button {
-	color: #F90394;
+	color: #fff;
 }
 #FAQ .card-body {
 	color: rgba(146,0,138,1);
 }
 /**Menu**/
-#order_form .card .form-group {
+#order_form {
+	color: #F90394;
+}
+#order_form .card .form-group-card label {
 	padding: 5px;
+}
+.btn {
+	background-color: #F90394;
+	border-color: #F90394;
+	color: #fff;
+}
+.btn:hover {
+	background-color: darkmagenta;
+	border-color: darkmagenta;
 }

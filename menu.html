@@ -25,7 +25,7 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html">Home</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
-            <a class="nav-item nav-link" href="menu.html">Menu</a>
+            <a class="nav-item nav-link" href="menu.html">Order</a>
             <a class="nav-item nav-link" href="nutrition.html">Nutrition Facts</a>
             <a class="nav-item nav-link" href="FAQ.html">FAQs</a>
             <a class="nav-item nav-link" href="gallery.html">Gallery</a>
@@ -35,29 +35,29 @@
 </nav><hr>
 <h1 class="cake-order-header">Online Cake Order</h1>
 <div class="container" id="order_form">
-<div class="card" style="width: 18rem;">
-	<div class="card-header">
-		Contact Information
-	</div>
-	<div class="form-group">
-		<label for="exampleFormControlInput1">Name</label>
-		<input type="name" class="form-control" id="exampleFormControlInput1">
-	</div>
-	<div class="form-group">
-		<label for="exampleFormControlInput2">Email</label>
-		<input type="name" class="form-control" id="exampleFormControlInput2">
-	</div>
-	<div class="form-group">
-		<label for="exampleFormControlInput3">Phone Number</label>
-		<input type="name" class="form-control" id="exampleFormControlInput3">
-	</div>
-</div>
-<br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          Contact Information
+        </div>
+        <div class="form-group-card">
+            <label for="name-input">Name</label>
+            <input type="name" class="form-control" id="name">
+          </div>
+          <div class="form-group-card">
+              <label for="email-input">Email</label>
+              <input type="name" class="form-control" id="email">
+            </div>
+            <div class="form-group-card">
+                <label for="phone-input">Phone Number</label>
+                <input type="name" class="form-control" id="phone-number">
+              </div>
+      </div>
+      <br>
 <form>
       
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Cake Type</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <label for="cake-type-input">Cake Type</label>
+          <select class="form-control" id="cake-type">
             <option>(none)</option>
             <option>Cupcakes</option>
             <option>Bundt Cake</option>
@@ -71,8 +71,8 @@
           </select>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Cake Flavors</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label for="cake-flavors-input">Cake Flavors</label>
+            <select class="form-control" id="cake-flavors">
               <option>(none)</option>
               <option>Chocolate (most popular)</option>
               <option>Koko Somoa</option>
@@ -83,8 +83,8 @@
             </select>
           </div>
           <div class="form-group">
-              <label for="exampleFormControlSelect1">Frosting Flavors</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <label for="frosting-flavors-input">Frosting Flavors</label>
+              <select class="form-control" id="frosting-flavors">
                 <option>(none)</option>
                 <option>Cream Cheese (most popular)</option>
                 <option>Koko Somoa</option>
@@ -95,41 +95,75 @@
               </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Additional Options</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <label for="additional-options-input">Additional Options</label>
+                <select class="form-control" id="additional-options">
                   <option>(none)</option>
-                  <option>Edible Photo ($10)</option>
-                  <option>Stacked Cakes ($10 p/tier)</option>
+                  <option>Edible Photo ($10, email cheatday@gmail.com with photo and reference name)</option>
+                  <option>Stacked Cakes ($10 p/tier, put number of tiers in additional notes)</option>
                   <option>Fondant ($20)</option>
-                  <option>Basic Theme ($10, put theme in notes)</option>
+                  <option>Basic Theme ($10, put theme in additional notes)</option>
       
                 </select>
               </div>
               <div class="form-group">
-                  <label for="exampleFormControlSelect1">Other</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+  
+                  <select class="form-control" id="additional-options2">
+                    <option>(none)</option>
+                    <option>Edible Photo ($10, email cheatday@gmail.com with photo and reference name)</option>
+                    <option>Stacked Cakes ($10 p/tier, put number of tiers in additional notes)</option>
+                    <option>Fondant ($20)</option>
+                    <option>Basic Theme ($10, put theme in additional notes)</option>
+        
+                  </select>
+                </div>
+                <div class="form-group">
+  
+                    <select class="form-control" id="additional-options3">
+                      <option>(none)</option>
+                      <option>Edible Photo ($10, email cheatday@gmail.com with photo and reference name)</option>
+                      <option>Stacked Cakes ($10 p/tier, put number of tiers in additional notes)</option>
+                      <option>Fondant ($20)</option>
+                      <option>Basic Theme ($10, put theme in additional notes)</option>
+          
+                    </select>
+                  </div>
+                  <div class="form-group">
+  
+                      <select class="form-control" id="additional-options4">
+                        <option>(none)</option>
+                        <option>Edible Photo ($10, email cheatday@gmail.com with photo and reference name)</option>
+                        <option>Stacked Cakes ($10 p/tier, put number of tiers in additional notes)</option>
+                        <option>Fondant ($20)</option>
+                        <option>Basic Theme ($10, put theme in additional notes)</option>
+            
+                      </select>
+                    </div>
+              <div class="form-group">
+                  <label for="other-input">Other</label>
+                  <select class="form-control" id="other">
                     <option>(none)</option>
                     <option>Cookies</option>
                     <option>Brownies</option>
                     <option>Blondies</option>
+                    
                   
         
                   </select>
                 </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Additonal Notes</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="additional-notes-input">Additonal Notes</label>
+          <textarea class="form-control" id="additional-notes" rows="3"></textarea>
         </div>
       </form>
      
       <form method="post">
           <div class="form-group"> <!-- Date input -->
             <label class="control-label" for="date">Pickup Date</label>
-            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
           </div>
           <div class="form-group">
-              <label for="exampleFormControlSelect1">Pickup Time</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <label for="pickup-time-input">Pickup Time</label>
+              <select class="form-control" id="pickup-time">
                   <option>11:00 A.M.</option>
                   <option>11:15 A.M.</option>
                   <option>11:30 A.M.</option>
@@ -165,11 +199,19 @@
               </select>
             </div>
           <div class="form-group"> <!-- Submit button -->
-            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+            <button class="btn" id="cake-order">Submit</button>
           </div>
          </form>
          
-</div>
+
+
+
+<footer class="footer">
+    <div class="container-fluid">
+        <span class="text-muted">Copyright Cheat Day 2018</span>
+    </div>
+
+  </div>
 <footer class="footer">
 	<div class="container-fluid">
 		<div class="row">
@@ -177,7 +219,7 @@
 				<ul>
 					<a href="index.html"><li>Home</li></a>
 					<a href="about.html"><li>About Us</li></a>
-					<a href="menu.html"><li>Menu</li></a>
+					<a href="menu.html"><li>Order</li></a>
 					<a href="nutrition.html"><li>Nutrition</li></a>
 				</ul>
 			</div>
