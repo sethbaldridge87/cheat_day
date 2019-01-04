@@ -70,8 +70,8 @@ $(document).ready(function(){
                             $("#buttons-view").append(button);
                         }
                     };
-                    console.log(deserts);
-                    console.log(queryURL);
+                    //console.log(deserts);
+                    //console.log(queryURL);
                     $(document).on("click", "button", function () {
                         food = $(this).attr("data-name");
                         var queryURL = "https://api.edamam.com/search?q=" + food + "&app_id=797b9472&app_key=f104c4b979a95ae85e141313a0e2cc82&from=0&to=2"
@@ -86,13 +86,13 @@ $(document).ready(function(){
                             var serving = Math.round(calories / yield);
                             $("#buttons").html('Calories =' + "<div>" + serving + "</div>")
                             picture();
-                            console.log(serving);
-                            console.log(calories);
-                            console.log(response);
-                            console.log(firstResult);
+                            //console.log(serving);
+                            //console.log(calories);
+                            //console.log(response);
+                            //console.log(firstResult);
                         })
-                        console.log(search);
-                        console.log(cheatDay);
+                        //console.log(search);
+                        //console.log(cheatDay);
                     })
                 })
 });	
