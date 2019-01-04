@@ -1,44 +1,48 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="style/style.css">
-        <link rel="stylesheet" type="text/css" href="slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="js/instafeed.min.js"></script>
-      <script type="text/javascript" src="js/insta.js"></script>
-      <script type="text/javascript" src="js/cheat_day.js"></script>
-      <script src="js/form.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
-        <title>Project 1</title>
-    </head>
-<body>
-<nav class="navbar navbar-light navbar-expand-lg">
-    <a class="navbar-brand" href="index.html"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="about.html">About Us</a>
-            <a class="nav-item nav-link" href="menu.html">Order</a>
-            <a class="nav-item nav-link" href="nutrition.html">Nutrition Facts</a>
-            <a class="nav-item nav-link" href="FAQ.html">FAQs</a>
-            <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-            <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+  <head>
+    <title>Cake Order</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Roboto" rel="stylesheet">
+    <script src="js/form.js"></script>
+</body>
+  <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="images/clear_logo.png" alt="Cheat Day Bakery" id="front_logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="about.html">About Us</a>
+                <a class="nav-item nav-link" href="menu.html">Order</a>
+                <a class="nav-item nav-link" href="Nutrition.html">Nutrition Facts</a>
+                <a class="nav-item nav-link" href="FAQ.html">FAQs</a>
+                <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+            </div>
         </div>
-    </div>
-</nav><hr>
+</nav>
+<br>
 <h1 class="cake-order-header">Online Cake Order</h1>
 <div class="container">
     <div class="card" style="width: 18rem;">
@@ -60,6 +64,7 @@
       </div>
       <br>
 <form>
+      
         <div class="form-group">
           <label for="cake-type-input">Cake Type</label>
           <select class="form-control" id="cake-type">
@@ -149,7 +154,9 @@
                     <option>(none)</option>
                     <option>Cookies</option>
                     <option>Brownies</option>
-                    <option>Blondies</option>         
+                    <option>Blondies</option>
+                    
+                  
         
                   </select>
                 </div>
@@ -196,6 +203,8 @@
                 <option>5:30 P.M.</option>
                 <option>5:45 P.M.</option>
                 <option>6:00 P.M.</option>
+
+              
     
               </select>
             </div>
@@ -203,30 +212,28 @@
             <button class="btn btn-danger" id="cake-order">Submit</button>
           </div>
          </form>
-<footer class="footer">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About Us</li></a>
-          <a href="menu.html"><li>Order</li></a>
-          <a href="nutrition.html"><li>Nutrition</li></a>
-        </ul>
-      </div>
-      <div class="col">
-        <ul>
-          <a href="FAQ.html"><li>FAQs</li></a>
-          <a href="gallery.html"><li>Gallery</li></a>
-          <a href="contact.html"><li>Contact Us</li></a>
-        </ul>
-      </div>
-      <div class="col">
-        <img src="images/logo.jpg" alt="Cheat Day Logo">
-        <span class="text-muted">Copyright Cheat Day 2018</span>
-      </div>
-    </div>
-  </div>
-</footer>
-</body>
+         
+
+
+
+    <footer class="footer">
+            <div class="container-fluid">
+                <span class="text-muted">Copyright Cheat Day 2018</span>
+            </div>
+
+          </div>
+
+            
+        </footer>
+
+
+<style>
+  .container {
+    color: #f90394;
+
+  }
+  .cake-order-header{
+    color:darkmagenta;
+  }
+</style>
 </html>
