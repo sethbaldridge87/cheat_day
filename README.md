@@ -5,3 +5,11 @@ Website created for client to display products. Includes responsive image galler
 Technologies used: Bootstrap, jQuery, Firebase, slick.js, Moment.js, Instagram API
 
 Check it out here: https://sethbaldridge87.github.io/cheat_day/
+
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat1.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat2.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat3.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat4.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat5.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat6.PNG
+https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat7.PNG
