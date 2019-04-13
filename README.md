@@ -6,10 +6,10 @@ Technologies used: Bootstrap, jQuery, Firebase, slick.js, Moment.js, Instagram A
 
 Check it out here: https://sethbaldridge87.github.io/cheat_day/
 
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat1.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat2.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat3.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat4.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat5.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat6.PNG
-https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat7.PNG
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat1.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat2.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat3.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat4.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat5.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat6.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/cheat_day/master/sample_images/cheat7.PNG)
